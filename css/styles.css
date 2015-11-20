@@ -1,0 +1,377 @@
+/* Main CSS file by Nelson Scott*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+
+.logo
+{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+nav 
+{
+    width: 100%;
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+    background-color: black;
+    display: block;
+    height: auto;
+}
+
+nav li
+{
+    display: inline;
+    font-size: 200%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+nav li a
+{
+    text-decoration: none;
+    color: #0CD6EB;
+}
+
+nav li a:hover
+{
+    color: #34E09E;
+}
+
+nav li a.portfolio, a.aboutPage, a.contactPage
+{
+    background-color: white;
+    color: #0909EB;
+}
+
+body
+{
+    width: 100%;
+    background-color: black;
+}
+
+.paddingDiv
+{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+
+.about
+{
+    background-color: #6E0BE0;
+    width: 70%;
+    border-radius: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    align-content: center;
+    display: block;
+    overflow: auto;
+}
+.about h1
+{
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 34px;
+    margin-top: 5px;
+}
+
+.about div
+{
+    width: 40%;
+    height: auto;
+    margin: 5%;
+    float: left;
+}
+
+.about p
+{
+    font-family: 'Quantico', sans-serif;
+    color: white;
+    text-indent: 10%;
+    font-size: 16px;
+    margin-top 10px;
+    margin-bottom: 10px;
+}
+
+.about img
+{
+    float: right;
+    width: auto;
+    height: auto;
+    max-width: 40%;
+    margin: 5%;
+    border-radius: 3%;
+}
+
+.contact
+{
+    background-color: #0909EB;
+    width: 70%;
+    border-radius: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    align-content: center;
+    display: block;
+}
+
+.contact h1
+{
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 34px;
+    margin-top: 5px;
+}
+
+.contact div
+{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: block;
+    width: 50%;
+    text-align: center;
+}
+
+.contact img
+{
+    border-radius: 3%;
+}
+
+.contact p
+{
+    font-family: 'Quantico', sans-serif;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin: 10%;
+}
+
+.bubbleContainer
+{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    align-content: center;
+}
+
+.projectBubble
+{
+    width: 30%;
+    margin: 1.5%;
+    height: 180px;
+    background-color: #34E09E;
+    border-radius: 3%;
+    text-align: center;
+    float: left;
+}
+
+.projectBubble a
+{
+    color: white;
+    font-family: 'Quantico', sans-serif;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.gameInfo
+{
+    
+}
+.gameInfo h1
+{
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.gameInfo h2
+{
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+    color: #34E09E;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.gameInfo img
+{
+    display: block;
+    border-radius: 3%;
+    width: 45%;
+    max-width: 500px;
+    height: auto;
+    margin-left: 5%;
+    float: left;
+}
+
+.gameInfo ul
+{
+    list-style-position: inside;
+    margin: 5%;
+}
+
+.gameInfo ul li
+{
+    color: white;
+    font-family: 'Quantico', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#gameDetails
+{ 
+    display: block;
+    border-radius: 3%;
+    height: auto;
+    width: 40%;
+    background-color: #6E0BE0;
+    margin-right: 5%;
+    float: right;
+}
+
+#playButton
+{
+    display: block;
+    margin: auto;
+    background-color: #6E0BE0;
+    border-radius: 3%;
+    width: 30%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+#playButton h1
+{
+    margin: 10%;
+    color: white;
+    font-family: 'Quantico', sans-serif;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 720px)
+{
+    .projectBubble
+    {
+        width: 47%;
+        margin: 1.5%;
+    }
+    
+    nav li
+    {
+        font-size: 150%;
+    }
+    
+    .about img
+    {
+        width: auto;
+        margin: auto;
+        float: none;
+        display: block;
+    }
+    
+    .about div
+    {
+        width: auto;
+        float: none;
+    }
+    
+    #gameDetails
+    {
+        width: 70%;
+    }
+    
+    .gameInfo ul li
+    {
+        font-size: 14px;
+    }
+    
+    .gameInfo img
+    {
+        float: inherit;
+        margin: auto;
+        width: 90%;
+    }
+    
+    #gameDetails
+    {
+        width: 90%;
+        float: inherit;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .projectBubble
+    {
+        width: 97%;
+        margin: 1.5%;
+    }
+    
+    nav li
+    {
+        display: inherit;
+        width: 100%;
+        margin-bottom: 2px;
+        margin-top: 2px;
+    }
+    
+    .paddingDiv
+    {
+        height: 0px;
+    }
+    
+    header
+    {
+        position: relative;
+    }
+    
+    .logo
+    {
+        width: 100%;
+    }
+    
+    .about
+    {
+        width: 95%;
+    }
+    
+    .gameInfo ul li
+    {
+        font-size: 15px;
+    }
+    
+    #playButton h1
+    {
+        font-size: 25px;
+    }
+    
+    .gameInfo h2
+    {
+        font-size: 14px;
+    }
+}
