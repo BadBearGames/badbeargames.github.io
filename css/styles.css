@@ -261,6 +261,7 @@ body
     margin-top: 0px;
     margin-bottom: 0px;
     text-decoration: none;
+    text-align: center;
 }
 
 #playButton h1
@@ -270,6 +271,7 @@ body
     font-family: 'Quantico', sans-serif;
     font-size: 36px;
     text-decoration: none;
+    text-align: center;
 }
 
 @media screen and (max-width: 720px)
@@ -367,7 +369,7 @@ body
     
     #playButton h1
     {
-        font-size: 25px;
+        font-size: 20px;
     }
     
     .gameInfo h2
